@@ -6,14 +6,63 @@
         xmlns:local="clr-namespace:Warehouse"
         mc:Ignorable="d"
         Title="Главное меню" Height="131.833" Width="271.667">
-    <Grid>
-        <Button x:Name="b1" Content="Отделы" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button x:Name="b2" Content="Склады" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="b2_Click"/>
-        <Button x:Name="b3" Content="Товары" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" Click="b3_Click"/>
-        <Button x:Name="b4" Content="Поставщики" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75" Click="b4_Click"/>
-        <Button x:Name="b5" Content="Получатели" HorizontalAlignment="Left" Margin="90,35,0,0" VerticalAlignment="Top" Width="75" Click="b5_Click"/>
-        <Button x:Name="b6" Content="Заказы" HorizontalAlignment="Left" Margin="170,35,0,0" VerticalAlignment="Top" Width="75" Click="b6_Click"/>
-        <Button x:Name="b7" Content="Менеджеры" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="75" Click="b7_Click"/>
+    <Grid Background="Black">
+        <Button x:Name="b1" Content="Отделы" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Bold">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF000CFF" Offset="0"/>
+                    <GradientStop Color="#FFFB0707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="b2" Content="Склады" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="b2_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontStyle="Italic" FontFamily="Comic Sans MS">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFF00F3" Offset="0"/>
+                    <GradientStop Color="#FFF3FF00" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="b3" Content="Товары" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" Click="b3_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontStyle="Italic" FontFamily="Comic Sans MS">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00FFF3" Offset="0"/>
+                    <GradientStop Color="#FF17FF00" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="b4" Content="Поставщики" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75" Click="b4_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontStyle="Italic" FontFamily="Comic Sans MS">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00FFE8" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="b5" Content="Получатели" HorizontalAlignment="Left" Margin="90,35,0,0" VerticalAlignment="Top" Width="75" Click="b5_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Comic Sans MS" FontWeight="Bold" FontStyle="Italic">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1700FF" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="b6" Content="Заказы" HorizontalAlignment="Left" Margin="170,35,0,0" VerticalAlignment="Top" Width="75" Click="b6_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontStyle="Italic" FontFamily="Comic Sans MS">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD100FF" Offset="0"/>
+                    <GradientStop Color="#FFE8FF00" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="b7" Content="Менеджеры" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="75" Click="b7_Click" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" FontStyle="Italic" FontFamily="Comic Sans MS">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFAE00FF" Offset="0"/>
+                    <GradientStop Color="#FFE8FF00" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
 
     </Grid>
 </Window>
