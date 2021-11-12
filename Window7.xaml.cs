@@ -10,9 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data.SQLite;
+using Warehouse.Connection;
 using System.Data;
+using Excel = Microsoft.Office.Interop.Excel;
+using System.IO;
+using System.Drawing;
+using System.Net.Mail;
+using System.Net;
 
 namespace Warehouse
 {
@@ -29,7 +36,7 @@ namespace Warehouse
 
         public void DisplayData()
         {
-            using (SQLiteConnection connection = new SQLiteConnection("Data Source=WH.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(DBConn.myConn))
             {
                 try
                 {
@@ -52,7 +59,7 @@ namespace Warehouse
 
         public void UpdateDB()
         {
-            using (SQLiteConnection connection = new SQLiteConnection("Data Source=WH.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(DBConn.myConn))
             {
                 try
                 {
@@ -89,7 +96,7 @@ namespace Warehouse
 
         private void BtnDel_Click(object sender, RoutedEventArgs e)
         {
-            using (SQLiteConnection connection = new SQLiteConnection("Data Source=WH.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(DBConn.myConn))
             {
                 try
                 {
