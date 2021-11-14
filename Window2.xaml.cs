@@ -81,8 +81,8 @@ namespace Warehouse
         }
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
-            Add win8 = new Add();
-            win8.Show();
+            Add2 win9 = new Add2();
+            win9.Show();
             Close();
         }
 

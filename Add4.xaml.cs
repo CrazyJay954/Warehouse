@@ -19,14 +19,15 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using Microsoft.Win32;
+
 namespace Warehouse
 {
     /// <summary>
-    /// Логика взаимодействия для Add.xaml
+    /// Логика взаимодействия для Add4.xaml
     /// </summary>
-    public partial class Add : Window
+    public partial class Add4 : Window
     {
-        public Add()
+        public Add4()
         {
             InitializeComponent();
         }
@@ -36,18 +37,18 @@ namespace Warehouse
             using (SQLiteConnection connection = new SQLiteConnection(DBConn.myConn))
             {
                 connection.Open();
-                if (String.IsNullOrEmpty(TB_WH.Text) || String.IsNullOrEmpty(TB_Rack.Text) || String.IsNullOrEmpty(TB_Shelf.Text) || String.IsNullOrEmpty(TB_Box.Text))
+                if (String.IsNullOrEmpty(TB_Name.Text) || String.IsNullOrEmpty(TB_Addr.Text) || String.IsNullOrEmpty(TB_WH.Text) || String.IsNullOrEmpty(TB_Prod.Text))
                 {
                     MessageBox.Show("Заполните все поля", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 else
                 {
+                    var Name = TB_Name.Text;
+                    var Addr = TB_Addr.Text;
                     var WH = TB_WH.Text;
-                    var Rack = TB_Rack.Text;
-                    var Shelf = TB_Shelf.Text;
-                    var Box = TB_Box.Text;
+                    var Prod = TB_Prod.Text;
 
-                    string query = $@"INSERT INTO Department(WH_Num,Rack_Num,Shelf_Num,Box_Num) values ('{WH}',{Rack},'{Shelf}','{Box}');";
+                    string query = $@"INSERT INTO Supplier(Name,Address,ID_WH,ID_Prod) values ('{Name}',{Addr},'{WH}','{Prod}');";
                     SQLiteCommand cmd = new SQLiteCommand(query, connection);
                     try
                     {
@@ -60,7 +61,7 @@ namespace Warehouse
 
                     catch (SQLiteException)
                     {
-                        
+
                     }
                 }
             }
@@ -68,8 +69,8 @@ namespace Warehouse
 
         private void BtnBack_Click(object sender, RoutedEventArgs e)
         {
-            Window1 win1 = new Window1();
-            win1.Show();
+            Window4 win4 = new Window4();
+            win4.Show();
             Close();
         }
     }

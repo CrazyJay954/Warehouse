@@ -103,7 +103,28 @@
     <Compile Include="Add.xaml.cs">
       <DependentUpon>Add.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Add2.xaml.cs">
+      <DependentUpon>Add2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add3.xaml.cs">
+      <DependentUpon>Add3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add4.xaml.cs">
+      <DependentUpon>Add4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add5.xaml.cs">
+      <DependentUpon>Add5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add6.xaml.cs">
+      <DependentUpon>Add6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add7.xaml.cs">
+      <DependentUpon>Add7.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Connection\DBConn.cs" />
+    <Compile Include="Edit.xaml.cs">
+      <DependentUpon>Edit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -126,6 +147,34 @@
       <DependentUpon>Window7.xaml</DependentUpon>
     </Compile>
     <Page Include="Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

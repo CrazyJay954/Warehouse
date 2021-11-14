@@ -37,14 +37,7 @@
                 </LinearGradientBrush>
             </Button.Foreground>
         </Button>
-        <Button x:Name="BtnDel" Grid.Column="0" Content="Удалить" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="122" Click="BtnDel_Click" Margin="264,10,0,0" FontSize="22" FontWeight="Bold" FontFamily="Comic Sans MS" Background="{x:Null}" BorderBrush="{x:Null}" >
-            <Button.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Blue" Offset="0"/>
-                    <GradientStop Color="Red" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Foreground>
-        </Button>
+        <Button x:Name="BtnDel" Grid.Column="0" Content="Удалить" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="122" Click="BtnDel_Click" Margin="264,10,0,0" FontSize="22" FontWeight="Bold" FontFamily="Comic Sans MS" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" />
         <Button x:Name="BtnBack" Content="Назад" HorizontalAlignment="Left" Margin="712,10,0,0" VerticalAlignment="Top" Height="32" Width="122" Click="BtnBack_Click" FontSize="22" FontWeight="Bold" FontFamily="Comic Sans MS" Background="{x:Null}" BorderBrush="{x:Null}" >
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -53,5 +46,6 @@
                 </LinearGradientBrush>
             </Button.Foreground>
         </Button>
+        <Button x:Name="BtnImport" Content="Экспорт" HorizontalAlignment="Left" Margin="391,10,0,0" VerticalAlignment="Top" Height="32" Width="122" Click="BtnImport_Click" FontSize="22" FontWeight="Bold" FontFamily="Comic Sans MS" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" />
     </Grid>
 </Window>

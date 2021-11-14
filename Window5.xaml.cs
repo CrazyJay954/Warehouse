@@ -84,8 +84,8 @@ namespace Warehouse
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
-            Add win8 = new Add();
-            win8.Show();
+            Add5 win12 = new Add5();
+            win12.Show();
             Close();
         }
 
