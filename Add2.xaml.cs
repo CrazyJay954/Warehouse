@@ -53,8 +53,8 @@ namespace Warehouse
                     {
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Информация добавленна");
-                        Window1 win1 = new Window1();
-                        win1.Show();
+                        Window2 win2 = new Window2();
+                        win2.Show();
                         Close();
                     }
 

@@ -47,7 +47,14 @@
                 </LinearGradientBrush>
             </Button.Foreground>
         </Button>
-        <Button x:Name="b6" Content="Заказы" HorizontalAlignment="Left" Margin="555,87,0,0" VerticalAlignment="Top" Width="186" Click="b6_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Comic Sans MS" Height="64" FontSize="36" FontWeight="Bold" Foreground="{x:Null}"/>
+        <Button x:Name="b6" Content="Справка" HorizontalAlignment="Left" Margin="555,87,0,0" VerticalAlignment="Top" Width="186" Click="b6_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Comic Sans MS" Height="64" FontSize="36" FontWeight="Bold">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Magenta" Offset="0"/>
+                    <GradientStop Color="Yellow" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
         <Button x:Name="b7" Content="Менеджеры" HorizontalAlignment="Left" Margin="257,10,0,0" VerticalAlignment="Top" Width="233" Click="b7_Click" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" FontFamily="Comic Sans MS" Height="68" FontSize="36">
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

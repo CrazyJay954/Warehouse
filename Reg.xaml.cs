@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace Warehouse
 {
     /// <summary>
-    /// Логика взаимодействия для Edit.xaml
+    /// Логика взаимодействия для Reg.xaml
     /// </summary>
-    public partial class Edit : Window
+    public partial class Reg : Window
     {
-        public Edit()
+        public Reg()
         {
             InitializeComponent();
-        }
-
-        private void BtnAdd_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void BtnBack_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

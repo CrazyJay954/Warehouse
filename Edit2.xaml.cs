@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Warehouse
 {
     /// <summary>
-    /// Логика взаимодействия для Edit.xaml
+    /// Логика взаимодействия для Edit2.xaml
     /// </summary>
-    public partial class Edit : Window
+    public partial class Edit2 : Window
     {
-        public Edit()
+        public Edit2()
         {
             InitializeComponent();
         }

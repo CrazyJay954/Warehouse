@@ -62,7 +62,7 @@ namespace Warehouse
 
         private void b6_Click(object sender, RoutedEventArgs e)
         {
-            Window6 win6 = new Window6();
+            Help win6 = new Help();
             win6.Show();
             Close();
         }

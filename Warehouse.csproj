@@ -121,9 +121,39 @@
     <Compile Include="Add7.xaml.cs">
       <DependentUpon>Add7.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Aunt.xaml.cs">
+      <DependentUpon>Aunt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Connection\DBConn.cs" />
     <Compile Include="Edit.xaml.cs">
       <DependentUpon>Edit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Edit2.xaml.cs">
+      <DependentUpon>Edit2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Edit3.xaml.cs">
+      <DependentUpon>Edit3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Edit4.xaml.cs">
+      <DependentUpon>Edit4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Edit5.xaml.cs">
+      <DependentUpon>Edit5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Edit6.xaml.cs">
+      <DependentUpon>Edit6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Edit7.xaml.cs">
+      <DependentUpon>Edit7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Help2.xaml.cs">
+      <DependentUpon>Help2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reg.xaml.cs">
+      <DependentUpon>Reg.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
@@ -174,7 +204,43 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Aunt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Edit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Help2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -190,6 +256,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Reg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
