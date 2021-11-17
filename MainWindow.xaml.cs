@@ -73,5 +73,12 @@ namespace Warehouse
             win7.Show();
             Close();
         }
+
+        private void bb_Click(object sender, RoutedEventArgs e)
+        {
+            Aunt win0 = new Aunt();
+            win0.Show();
+            Close();
+        }
     }
 }

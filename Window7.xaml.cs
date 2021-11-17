@@ -125,6 +125,15 @@ namespace Warehouse
             win0.Show();
             Close();
         }
+
+        private void BtnImport_Click(object sender, RoutedEventArgs e)
+        {
+            PrintDialog printDialog = new PrintDialog();
+            if (printDialog.ShowDialog() == true)
+            {
+                printDialog.PrintVisual(DGAllEmp, "");
+            }
+        }
     }
 }
 

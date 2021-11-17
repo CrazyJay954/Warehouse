@@ -5,55 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Warehouse"
         mc:Ignorable="d"
-        Title="Инструкция" Height="450" Width="800">
+        Title="Справка" Height="318.642" Width="800" MaxHeight="318.642" MaxWidth="800" MinHeight="318.642" MinWidth="800">
     <Grid Background="Black">
-        <TextBox HorizontalAlignment="Left" Height="69" Margin="10,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Text="Раздел «Поставщики» показывает название компании, адрес, номер склада и номер товара.">
-            <TextBox.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Blue" Offset="0"/>
-                    <GradientStop Color="Red" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.Foreground>
-        </TextBox>
-        <Button x:Name="bb" Content="Главное меню" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="169" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Click="bb_Click">
-            <Button.Foreground>
+        <TextBox HorizontalAlignment="Left" Height="69" Margin="10,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Text="Раздел «Склады» показывает номер товара, название склада на котором находится товар, номер отдела." Foreground="White"/>
+        <Button x:Name="bb" Content="Назад" ToolTip="Возврат на главный экран" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="77" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" Background="{x:Null}" Click="bb_Click" Foreground="#FF686335">
+            <Button.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF686335" Offset="1"/>
                 </LinearGradientBrush>
-            </Button.Foreground>
+            </Button.BorderBrush>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="69" Margin="10,130,0,0" TextWrapping="Wrap" Text="Раздел «Склады» показывает номер товара, на каком складе находится товар, номер отдела." VerticalAlignment="Top" Width="773" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}">
-            <TextBox.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Magenta" Offset="0"/>
-                    <GradientStop Color="Yellow" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.Foreground>
-        </TextBox>
-        <TextBox HorizontalAlignment="Left" Height="74" Margin="10,204,0,0" TextWrapping="Wrap" Text="Раздел «Отделы» позволяет сотруднику узнать номер склада, номер стеллажа, номер полки и ящика в котором находится товар." VerticalAlignment="Top" Width="773" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}">
-            <TextBox.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Cyan" Offset="0"/>
-                    <GradientStop Color="Lime" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.Foreground>
-        </TextBox>
-        <Button x:Name="bn" Content="Предыдущая страница" HorizontalAlignment="Left" Margin="523,10,0,0" VerticalAlignment="Top" Width="259" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="22" FontWeight="Bold" FontFamily="Comic Sans MS" Click="bn_Click">
-            <Button.Foreground>
+        <TextBox HorizontalAlignment="Left" Height="69" Margin="10,130,0,0" TextWrapping="Wrap" Text="Раздел «Отделы» позволяет сотруднику узнать номер склада, номер стеллажа, номер полки и ящика, в котором находится товар." VerticalAlignment="Top" Width="773" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White"/>
+        <TextBox HorizontalAlignment="Left" Height="74" Margin="10,204,0,0" TextWrapping="Wrap" Text="Раздел «Товары» показывает название, цену, тип и характеристики." VerticalAlignment="Top" Width="773" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Foreground="White"/>
+        <Button x:Name="bn" Content="Предыдущая страница" ToolTip="Страница №1" HorizontalAlignment="Left" Margin="523,10,0,0" VerticalAlignment="Top" Width="259" Background="{x:Null}" FontSize="22" FontWeight="Bold" FontFamily="Comic Sans MS" Click="bn_Click" Foreground="#FF686335">
+            <Button.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF686335" Offset="1"/>
                 </LinearGradientBrush>
-            </Button.Foreground>
+            </Button.BorderBrush>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="69" Margin="10,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" FontSize="22" FontFamily="Comic Sans MS" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Text="Раздел «Товары» показывает название, цену, тип и характеристики.">
-            <TextBox.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Blue" Offset="0"/>
-                    <GradientStop Color="Red" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.Foreground>
-        </TextBox>
     </Grid>
 </Window>
