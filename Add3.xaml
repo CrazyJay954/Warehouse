@@ -30,6 +30,6 @@
         <TextBox x:Name="TB_Name" HorizontalAlignment="Left" Height="32" Margin="126,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Background="White" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold" Foreground="Black"/>
         <TextBox x:Name="TB_Price" HorizontalAlignment="Left" Height="32" Margin="79,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold" Foreground="Black"/>
         <TextBox x:Name="TB_Type" HorizontalAlignment="Left" Height="32" Margin="73,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold" Foreground="Black"/>
-        <TextBox x:Name="TB_Spec" HorizontalAlignment="Left" Height="32" Margin="197,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="TB_Spec" HorizontalAlignment="Left" Height="32" Margin="197,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold" Foreground="Black"/>
     </Grid>
 </Window>

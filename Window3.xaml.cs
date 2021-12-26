@@ -15,7 +15,6 @@ using System.Windows.Shapes;
 using System.Data.SQLite;
 using Warehouse.Connection;
 using System.Data;
-using Excel = Microsoft.Office.Interop.Excel;
 using System.IO;
 using System.Drawing;
 using System.Net.Mail;
